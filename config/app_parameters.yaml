@@ -1,0 +1,8 @@
+parameters:
+  trans_available:
+    en:
+      flag: "&#127468;&#127463;"
+      trans_code: "en"
+    fr:
+      flag: "&#127467;&#127479;"
+      trans_code: "fr"
