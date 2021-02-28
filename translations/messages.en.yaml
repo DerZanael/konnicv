@@ -1,0 +1,6 @@
+# messages.en.yaml
+app:
+  language: "Language"
+  locales:
+    en: "English"
+    fr: "French"
