@@ -17,9 +17,11 @@ class LocaleController extends AbstractController
         if($lang === null) {
             throw new AccessDeniedHttpException();
         }
+        //Set the requested locale into the session and request
         $request->getSession()->set("_locale", $lang);
         $request->setLocale($lang);
 
+        //Return to previous page
         return new RedirectResponse($request->headers->get("referer"));
     }
 }
