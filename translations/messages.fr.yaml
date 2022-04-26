@@ -4,3 +4,14 @@ app:
   locales:
     en: "Anglais"
     fr: "Français"
+  login:
+    signin: "connexion"
+    logout: "Déconnexion"
+    title: "Identification"
+    already: "Vous êtes déja identifié"
+    as: "en tant que"
+    username: "nom d'utilisateur"
+    your_username: "Votre nom d'utilisateur"
+    password: "mot de passe"
+    your_password: "votre mot de passe"
+    rememberme: "se rappeler de moi"

@@ -4,3 +4,14 @@ app:
   locales:
     en: "English"
     fr: "French"
+  login:
+    signin: "sign in"
+    logout: "logout"
+    title: "authentication"
+    already: "you are already connected"
+    as: "as"
+    username: "username"
+    your_username: "your username"
+    password: "password"
+    your_password: "your password"
+    rememberme: "remember me"
